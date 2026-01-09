@@ -1,0 +1,1 @@
+# palvsod1c-tamagotchi
