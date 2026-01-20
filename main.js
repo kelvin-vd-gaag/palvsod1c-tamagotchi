@@ -11,4 +11,11 @@ let music = new Audio("background-music.mp3");
 function start_game(){
     music.play();
     document.getElementById("start-game-menu").style.display = "none";
+    setInterval(game_loop, 1000);
 }
+
+function game_loop(){
+    hunger--;
+    document.getElementById("hunger-value").innerText = "Honger: " + hunger;
+}
+
